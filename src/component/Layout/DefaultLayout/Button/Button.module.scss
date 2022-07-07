@@ -1,0 +1,15 @@
+.button{
+    width: 200px;
+    height: 80px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    font-size: 20px;
+    line-height: 500;
+}
+
+.button:hover {
+    background-color: #ff2e43;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Nanum+Myeongjo:wght@700&display=swap');
+
+:root {
+    --primary: #070707;
+    --black: #000;
+    --text-color: #333;
+    --font-primary: 'Montserrat', sans-serif;
+
+    // Default layout
+    --default-layout-header-height: 220px;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    line-height: 1.5;
+    text-rendering: optimizespeed;
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

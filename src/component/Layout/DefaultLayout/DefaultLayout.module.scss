@@ -1,0 +1,19 @@
+.button-list{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.motion-status{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    &-list:first-of-type{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
